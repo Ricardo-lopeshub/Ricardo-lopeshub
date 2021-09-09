@@ -1,0 +1,140 @@
+
+body{
+
+    background-color: #2a363b;
+    background-size: cover;
+    font-family: "Convergence", sans-serif;
+    padding-top: 50px;
+        
+}
+
+h1{
+
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#result{
+
+    font-size: 20px;
+
+}
+
+label{
+
+    color: whitesmoke;
+    margin: 5px;
+
+}
+
+.calculadora{
+
+    max-width: 500px;
+    margin: auto;
+    background-color: #474747;
+    height: 592px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.imc{
+
+    max-width: 500px;
+    margin: auto;
+    background-color: #474747;
+    height: 330px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+    text-align: left;
+    color: rgb(202, 200, 200);
+    margin-bottom: 30px;
+
+}
+
+#peso{
+
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    width: 80%;
+    outline: none;
+    background: none;
+    font-family: "Convergence", sans-serif;
+
+}
+
+#altura{
+
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    width: 80%;
+    outline: none;
+    background: none;
+    font-family: "Convergence", sans-serif;
+    
+}
+
+.calcular{
+
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: none;
+    font-family: "Convergence", sans-serif;
+    border: 2px solid whitesmoke;
+    color: rgb(202, 200, 200);
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#resultado{
+
+    color: whitesmoke;
+    max-width: 90%;
+    height: 220px;
+    background-color: #474747;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid rgba(128, 128, 128, 0.425);
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 22px;
+
+}
+
+footer{
+
+    position: relative;
+    margin: 0;
+    text-align: right;
+    right: 5px;
+    bottom: 5px;
+    font-size: 12px;
+    color: rgb(202, 200, 200)
+
+}
+/* O código abaixo serve para remover as setas dos inputs number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}

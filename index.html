@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/calculadora.png" type="image/x-icon">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <div class='conteudo'>
+        <div class='calculadora'>
+            <h1>Calculadora IMC</h1>
+            <input type="number" name="peso" id="peso" placeholder="Peso (kg) ex: 60"><label for="peso">Kg</label>
+            <input type="number" name="altura" id="altura" placeholder="Altura (m) ex: 1.80"><label for="altura">m</label>
+
+            <div>
+                <button type='submit' class='calcular' onclick="calcular()">Calcular</button>
+            </div>
+
+            <h1 id='result'>RESULTADO:</h1>
+            
+            <div id='resultado'>
+                
+            </div>
+        </div>
+        <div class='imc'>
+            <h1>O que é o IMC?</h1>
+            <p>IMC significa <strong>Índice de Massa Corporal, trata-se de uma relação entre a massa e a altura elevado ao quadrado.</strong></p>
+            <p>A partir desse cálculo é possível obter um valor e com esse valor analisar o peso de uma pessoa em diferentes níveis, de acordo com as informações abaixo:</p>
+            <p>- IMC abaixo de 18,5: Abaixo do Peso</br>- Entre 18,5 e 25: Peso Ideal</br>- 25 até 30: Sobrepeso</br>- 30 até 40: Obesidade</br>- Acima de 40: Obesidade Mórbida
+            </p>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
